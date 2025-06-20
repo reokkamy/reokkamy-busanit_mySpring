@@ -9,6 +9,6 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-
+6_0620_JSP 화면 및 다른 화면 주의사항.txt
 </body>
 </html>
