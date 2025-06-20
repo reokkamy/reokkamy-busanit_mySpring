@@ -1,4 +1,4 @@
-package com.busanit501.hello_project.calc;
+package com.busanit501.mujin.calc;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
