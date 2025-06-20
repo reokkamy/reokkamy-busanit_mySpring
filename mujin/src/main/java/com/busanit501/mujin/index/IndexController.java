@@ -10,11 +10,13 @@ import java.io.IOException;
 
 @WebServlet(name = "indexController", urlPatterns = "/index")
 public class IndexController extends HttpServlet {
-   //화면 제공 ->
+    // 화면 제공. ->
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("indexController- doGet 호출중,화면담당, 나의구역은: /index");
+    protected  void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+        System.out.println("indexController- doGet 호출중, 화면 담당, 나의 구역은: /index");
         RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/index.jsp");
         rd.forward(req, resp);
+
     }
 }
